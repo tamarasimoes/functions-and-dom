@@ -15,7 +15,7 @@ Cada objeto representa uma parte diferente da página carregada na janela do nav
 
 O DOM também define métodos e propriedades para acessar e atualizar cada objeto nesse modelo o que, por sua vez, atualiza aquilo que o usuário vê no navegador.
 
-| Nó Document  | Nós de Elemento   |
-| ------- | -------- |
-| Texto   | Texto    |
-| Texto   | Texto    |
+ Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
+ ------------ | ----------------- | --------------- | ------------
+ Acima, você pode ver o código HTML para uma lista de compras,  | Texto    |
+ Texto   | Texto    |
