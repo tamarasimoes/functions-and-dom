@@ -1,7 +1,6 @@
 # Funções no JavaScript e Document Object Model (DOM)
 
-[Introdução](## Introdução)
-[Acessando elementos via DOM] (## Acessando_elementos)
+ -[Introdução](## Introdução)
 
 
 ## Introdução
