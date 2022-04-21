@@ -35,4 +35,6 @@ Acima, você pode ver o código HTML para uma lista de compras, e logo após est
 
 - **querySelectorAll('seletor css'):** Usa a sintaxe do seletor CSS para selecionar um ou mais elementos e retorna todos aqueles que correspondem. 
 
+### Métodos que selecionam elementos individuais
+
 <img src="https://github.com/tamaratryber/functions-and-dom/blob/main/dom.png">
