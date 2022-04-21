@@ -14,3 +14,8 @@ Cada objeto representa uma parte diferente da página carregada na janela do nav
 ### Acesso e alteração da página HTML
 
 O DOM também define métodos e propriedades para acessar e atualizar cada objeto nesse modelo o que, por sua vez, atualiza aquilo que o usuário vê no navegador.
+
+| Nó Document  | Nós de Elemento   |
+| ------- | -------- |
+| Texto   | Texto    |
+| Texto   | Texto    |
