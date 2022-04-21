@@ -1,8 +1,12 @@
 # Funções no JavaScript e Document Object Model (DOM)
 
 ### Conteúdos
-
+:------:
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Introdução</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Acessando elementos</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Métodos que selecionam elementos individuais</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">NodeLists: _Consultas DOM que retornam mais de um elemento_</a>
+
 
 
 ## Introdução
