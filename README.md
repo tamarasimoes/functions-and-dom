@@ -44,7 +44,7 @@ Veja o exemplo:
 
 ## NodeLists: _Consultas DOM que retornam mais de um elemento_
 
-| Quando um método DOM pode retornar mais de um elemento, ele retorna uma NodeList (mesmo se encontrar somente um elemento que corresponde.
+Quando um método DOM pode retornar mais de um elemento, ele retorna uma NodeList (mesmo se encontrar somente um elemento que corresponde.
 
 Um NodeList é uma coleção de nós de elemento. Cada nó recebe um número de índice (um número que começa em zero, como um array).
 A ordem em que os nós de elemento são armazenados em uma NodeList é a mesma ordem que apareceu na página HTML.
@@ -53,4 +53,9 @@ Quando uma consulta DOM retorna uma NodeList, talvez você queira:
 - Selecionar um elemento a partir do NodeList.
 - Fazer um loop em cada item do NodeList e executar as mesmas instruções em cada um dos nós de elemento.
 
+NodeLists se parecem com arrays e são numerados como arrays, mas na verdade não são arrays; são um tipo de objeto chamado *coleção*.
 
+Como qualquer outro objeto, uma NodeList tem propriedades e métodos, nomeadamente:
+
+- A propriedade **lenght** informa quandos itens estão no NodeList.
+- O método **item()** retorna um nó específico do NodeList quando você informa o número de índice do item que você quer (entre parênteses). Mas é mais comum usar a sintaxe de array (com colchetes) para recuperar o item de uma NodeList.
