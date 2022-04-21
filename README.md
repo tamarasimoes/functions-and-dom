@@ -21,17 +21,17 @@ Acima, você pode ver o código HTML para uma lista de compras, e logo após est
 
 #### Acessando elementos
 
-**getElementById('id'):** Seleciona um elemento individual dado o valor de seu atributo _id_. A HTML deve ter um atributo id para que ela possa ser selecionável dessa forma.
+- **getElementById('id'):** Seleciona um elemento individual dado o valor de seu atributo _id_. A HTML deve ter um atributo id para que ela possa ser selecionável dessa forma.
 
 
-**querySelector('seletor css'):** Usa a sintaxe do seletor CSS que selecionaria um ou mais elementos. Esse método só retorna _o primeiro_ dos elementos correspondentes.
+- **querySelector('seletor css'):** Usa a sintaxe do seletor CSS que selecionaria um ou mais elementos. Esse método só retorna _o primeiro_ dos elementos correspondentes.
 
 
-**getElementsByClassName('classe'):** Seleciona um ou mais elementos dado o valor de seu atributo _class_. A HTML deve ter um atributo class para que ela seja selecionável. Esse método é mais rápido do que _querySelectorAll_.
+- **getElementsByClassName('classe'):** Seleciona um ou mais elementos dado o valor de seu atributo _class_. A HTML deve ter um atributo class para que ela seja selecionável. Esse método é mais rápido do que _querySelectorAll_.
 
 
-**getElementsByTagName('nome da tag'):** Seleciona todos os elementos na página com o nome de tag especificado. Esse método é mais rápido do que _querySelectorAll_.
+- **getElementsByTagName('nome da tag'):** Seleciona todos os elementos na página com o nome de tag especificado. Esse método é mais rápido do que _querySelectorAll_.
 
 
-**querySelectorAll('seletor css'):** Usa a sintaxe do seletor CSS para selecionar um ou mais elementos e retorna todos aqueles que correspondem. 
+- **querySelectorAll('seletor css'):** Usa a sintaxe do seletor CSS para selecionar um ou mais elementos e retorna todos aqueles que correspondem. 
 
