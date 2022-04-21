@@ -41,3 +41,16 @@ Acima, você pode ver o código HTML para uma lista de compras, e logo após est
 Veja o exemplo:
 
 <img src="https://github.com/tamaratryber/functions-and-dom/blob/main/dom.png">
+
+## NodeLists: _Consultas DOM que retornam mais de um elemento_
+
+| Quando um método DOM pode retornar mais de um elemento, ele retorna uma NodeList (mesmo se encontrar somente um elemento que corresponde.
+
+Um NodeList é uma coleção de nós de elemento. Cada nó recebe um número de índice (um número que começa em zero, como um array).
+A ordem em que os nós de elemento são armazenados em uma NodeList é a mesma ordem que apareceu na página HTML.
+
+Quando uma consulta DOM retorna uma NodeList, talvez você queira:
+- Selecionar um elemento a partir do NodeList.
+- Fazer um loop em cada item do NodeList e executar as mesmas instruções em cada um dos nós de elemento.
+
+
