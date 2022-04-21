@@ -1,6 +1,10 @@
 # Funções no JavaScript e Document Object Model (DOM)
 
-### Introdução
+[Introdução](## Introdução)
+[Acessando elementos via DOM] (## Acessando_elementos)
+
+
+## Introdução
 
 O Document Object Model (DOM) especifica como os navegadores devem criar um modelo de página HTML e como o JavaScript pode acessar e atualizar o conteúdo de uma página web enquanto ela está na janela do navegador.
 
