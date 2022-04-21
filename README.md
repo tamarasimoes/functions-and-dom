@@ -69,3 +69,5 @@ Como qualquer outro objeto, uma NodeList tem propriedades e métodos, nomeadamen
 
 - A propriedade **lenght** informa quandos itens estão no NodeList.
 - O método **item()** retorna um nó específico do NodeList quando você informa o número de índice do item que você quer (entre parênteses). Mas é mais comum usar a sintaxe de array (com colchetes) para recuperar o item de uma NodeList.
+
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/nodelists.png">
