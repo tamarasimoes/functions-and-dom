@@ -17,5 +17,5 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 
  Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
  ------------ | ----------------- | --------------- | ------------
- Acima, você pode ver o código HTML para uma lista de compras,  | Texto    |
- Texto   | Texto    |
+ Acima, você pode ver o código HTML para uma lista de compras,  | Elementos HTML descrevem a estrutura de uma página HTML. OS elementos <h1> - <h6> descrevem    |
+ As tags de abertura dos elementos HTML podem conter atributos e esses são representados   | Depois de ter acessado um nó de elemento, você pode então buscar o texto dentro desse elemento.    |
