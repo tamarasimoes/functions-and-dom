@@ -75,7 +75,8 @@ Como qualquer outro objeto, uma NodeList tem propriedades e métodos, nomeadamen
 
 _Aqui você pode ver quatro diferentes consultas DOM que retornam uma NodeList. Para cada consulta, você pode ver os elementos e seus números de índice no NodeList que é retornado._
 
-- *getElementsbyTagName('h1')*: Embora essa consulta retorne um único elemento, o método ainda retorna uma NodeList por causa do potencial de retornar mais de um elemento.
+####getElementsbyTagName('h1'):
+Embora essa consulta retorne um único elemento, o método ainda retorna uma NodeList por causa do potencial de retornar mais de um elemento.
 
 | Número de Índice | Elemento |
 |---|---|
