@@ -2,10 +2,10 @@
 
 ### Conteúdos
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Introdução</a>
- - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Acessando elementos</a>
- - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Métodos que selecionam elementos individuais</a>
- - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">NodeLists: _Consultas DOM que retornam mais de um elemento_</a>
- - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Percorrendo o DOM</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#acessando-elementos">Acessando elementos</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#metodos-que-selecionam-elementos-individuais">Métodos que selecionam elementos individuais</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#nodelists-consultas-dom-que-retornam-mais-de-um-elemento">NodeLists: _Consultas DOM que retornam mais de um elemento_</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#percorrendo-o-dom">Percorrendo o DOM</a>
 
 
 
