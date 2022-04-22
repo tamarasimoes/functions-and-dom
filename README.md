@@ -1,4 +1,4 @@
-# Revisão: Document Object Model (DOM)
+# Falando sobre Document Object Model (DOM)
 
 ### Conteúdos
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Introdução</a>
