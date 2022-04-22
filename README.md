@@ -30,22 +30,6 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 
 EXEMPLO: CORPO DA PÁGINA HTML
 
-`<html>
-<body>
-  <div id="page">
-   <h1 id="header">List</hi>
-   <h2>Buy groceries</h2>
-   <ul>
-     <li id= "one" class="hot"><em>fresh</em> figs</li>
-     <li id="two" class="hot">pine nuts</li>
-     <li id="three" class="hot">honey</li>
-     <li id="four">balsamic vinegar</li>
-   </ul>
-  </div>
-  <script src="js/list.js"></script>
-</body>
-</html>` 
-
 
  Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
  ------------ | ----------------- | --------------- | ------------
@@ -137,5 +121,13 @@ Esse método retorna quatro elementos, um para cada um dos elementos `<li>` da p
 Quando você tem um nó de elemento, você pode selecionar outro elemento em relação a ele usando estas cinco propriedades. Isso é conhecido como _percorrer_ ou navegar pelo DOM.
 
 - **parentNode**
+Essa propriedade encontra o nó do elemento pai na HTML.
+**(1)** Se você começou com o primeiro elemento `<li>`, então o nó pai seria o único representando o elemento `<ul>`.
+
 - **previousSibling** e **nextSibling**
+Essas propriedades encontram o irmão anterior ou posterior, _respectivamente_, de um nó se houver irmãos.
+Se você começou com o primeiro elemento `<li>`, ele não teria um irmão anterior. Mas seu irmão posterior **(2)** seria o nó representando o segundo `<li>`.
+
 - **firstChild** e **lastChild**
+Essas propriedades encontram o primeiro ou o último filho do elemento atual.
+Se você começou com o elemento `<ul>`, o primeiro filho seria o nó representando o primeiro elemento `<li>` e **(3)** o último filho seria o último `<li>`.
