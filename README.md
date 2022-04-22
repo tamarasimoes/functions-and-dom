@@ -145,8 +145,8 @@ A manipulação DOM fornece técnicas para adicionar novo conteúdo a uma págin
 
 | 1. CRIE O ELEMENTO  | 2. INSIRA CONTEÚDO   | 3. ADICIONE-O AO DOM |
 | --- | ---| --- |
-| createElement() | createTextNode() | appendChild() | 
-| createElement() | createTextNode() | appendChild() | 
+| **createElement()** | **createTextNode()** | **appendChild()** | 
+| Você começa criando um novo nó de elemento usando o método `createElement()`. Esse nó de elemento é armazenado em uma variável.<br><br>Quando o nó de elemento é criado, ele ainda não faz parte da árvore DOM. Ele só é adicionado à árvore DOM depois do passo 3. | `createTextNode()` cria um novo nó de texto. Mais uma vez, o nó é armazenado em uma variável. Ele pode ser adicionado ao nó de elemento usando o método `appendChild()`.<br><br>Isso fornece o conteúdo para o elemento, embora você possa pular esse passo se quiser anexar um elemento vazio à árvore DOM. | Agora que você tem o elemento (opcionalmente com algum conteúdo em um nó de texto), você pode adicioná-lo à árvore DOM usando o método `appendChild()`.<br><br>O método `appendChild()` permite especificar a qual elemento você quer adicionar esse nó como filho. | 
 
 
 <hr>
