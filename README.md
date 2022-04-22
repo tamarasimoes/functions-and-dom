@@ -77,8 +77,8 @@ _Aqui você pode ver quatro diferentes consultas DOM que retornam uma NodeList. 
 
 - *getElementsbyTagName('h1')*: Embora essa consulta retorne um único elemento, o método ainda retorna uma NodeList por causa do potencial de retornar mais de um elemento.
 
-NÚMERO DE ÍNDICE E ELEMENTO
-| 0 | `<h1>` |
+| Número de Índice | Elemento |
 |---|---|
+| 0 | `<h1>`| 
  
 
