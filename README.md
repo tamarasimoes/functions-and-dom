@@ -30,7 +30,7 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 
 EXEMPLO: CORPO DA PÁGINA HTML
 
-`<htm]>
+`<html>
 <body>
   <div id="page">
    <h1 id="header">List</hi>
@@ -44,7 +44,7 @@ EXEMPLO: CORPO DA PÁGINA HTML
   </div>
   <script src="js/list.js"></script>
 </body>
-</html>`
+</html>` 
 
 
  Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
