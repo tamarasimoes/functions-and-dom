@@ -29,6 +29,7 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 À medida que um navegador carrega uma página web, ele cria um modelo dessa página. O modelo é chamado árvore DOM, e é armazenado na memória dos navegadores. Consiste em quatro tipos principais de nós.
 
 EXEMPLO: CORPO DA PÁGINA HTML
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/code.png">
 
 
  Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
@@ -119,6 +120,8 @@ Esse método retorna quatro elementos, um para cada um dos elementos `<li>` da p
 ## Percorrendo o DOM
 
 Quando você tem um nó de elemento, você pode selecionar outro elemento em relação a ele usando estas cinco propriedades. Isso é conhecido como _percorrer_ ou navegar pelo DOM.
+
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/percorrendo-dom.png">
 
 - **parentNode**
 
