@@ -5,6 +5,8 @@
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Acessando elementos</a>
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Métodos que selecionam elementos individuais</a>
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">NodeLists: _Consultas DOM que retornam mais de um elemento_</a>
+ - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#introdução">Percorrendo o DOM</a>
+
 
 
 
@@ -75,14 +77,14 @@ Como qualquer outro objeto, uma NodeList tem propriedades e métodos, nomeadamen
 
 _Aqui você pode ver quatro diferentes consultas DOM que retornam uma NodeList. Para cada consulta, você pode ver os elementos e seus números de índice no NodeList que é retornado._
 
-#### getElementsbyTagName('h1'):
+#### - getElementsbyTagName('h1'):
 Embora essa consulta retorne um único elemento, o método ainda retorna uma NodeList por causa do potencial de retornar mais de um elemento.
 
 | Número de Índice | Elemento |
 |---|---|
 | 0 | `<h1>`| 
 
-#### getElementsByTagName('li'):
+#### - getElementsByTagName('li'):
 Esse método retorna quatro elementos, um para cada um dos elementos `<li>` na página. Eles aparecem na mesma ordem em que são exibidos na página HTML.
 
 | Número de Índice | Elemento |
@@ -92,7 +94,7 @@ Esse método retorna quatro elementos, um para cada um dos elementos `<li>` na p
 | 2 | `<li id="three" class="hot">`| 
 | 3 | `<li id="four">`| 
  
-#### getElementsByClassName('hot'):
+#### - getElementsByClassName('hot'):
 Essa NodeList contém apenas três dos elementos `<li>` porque estamos procurando elementos pelo valor de seu atributo _class_, e não pelo nome de tag.
 
 | Número de Índice | Elemento |
@@ -101,7 +103,7 @@ Essa NodeList contém apenas três dos elementos `<li>` porque estamos procurand
 | 1 | `<li id="two" class="hot">`| 
 | 2 | `<li id="three" class="hot">`| 
 
-#### querySelectorAll('li[id]'):
+#### - querySelectorAll('li[id]'):
 Esse método retorna quatro elementos, um para cada um dos elementos `<li>` da página que tem um atributo _id_ (independentemente dos valores dos atributos id).
 
 | Número de Índice | Elemento |
@@ -110,3 +112,11 @@ Esse método retorna quatro elementos, um para cada um dos elementos `<li>` da p
 | 1 | `<li id="two" class="hot">`| 
 | 2 | `<li id="three" class="hot">`| 
 | 3 | `<li id="four">`| 
+
+## Percorrendo o DOM
+
+Quando você tem um nó de elemento, você pode selecionar outro elemento em relação a ele usando estas cinco propriedades. Isso é conhecido como _percorrer_ ou navegar pelo DOM.
+
+- **parentNode**
+- **previousSibling** e **nextSibling**
+- **firstChild** e **lastChild**
