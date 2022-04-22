@@ -24,5 +24,17 @@ novoParagrafo.innerHTML = 'Oi! Eu sou o novo parágrafo';
 
 elementoPai3.appendChild(novoParagrafo);
 
+// Questão 4: Vamos rever eventos? A div "questao-4" contém um formulário. Crie uma função que receba um nome digitado no campo "Digite seu nome", gere uma saudação e mostre na página, no momento em que o botão "Clique aqui!" for acionado.
+
+const botao = document.getElementById('boasVindas');
+const inputNome = document.getElementById('nome');
+const mensagem = document.getElementById('mensagem');
+
+const montaMensagem = () => {
+  let textoDaMensagem = `Olá, ${inputNome.value}!`;
+  mensagem.innerHTML = textoDaMensagem;
+};
+
+botao.addEventListener('click', montaMensagem);
 
 
