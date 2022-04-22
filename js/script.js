@@ -12,7 +12,7 @@ elementoPai1.appendChild(novoTextoParaLi);
 
 const elementoPai2 = document.getElementById('pai2');
 console.log(elementoPai2);
-const ultimoFilho = elementoPai2.lastChild;
+const ultimoFilho = elementoPai2.lastElementChild;
 ultimoFilho.innerHTML = 'To alteando o texto...'
 
 // Questão 3: Por meio do método innerHTML, insira um novo parágrafo na div "questao-3".
