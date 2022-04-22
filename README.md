@@ -81,5 +81,15 @@ Embora essa consulta retorne um único elemento, o método ainda retorna uma Nod
 | Número de Índice | Elemento |
 |---|---|
 | 0 | `<h1>`| 
+
+#### getElementsbyTagName('li'):
+Esse método retorna quatro elementos, um para cada um dos elementos `<li>` na página. Eles aparecem na mesma ordem em que são exibidos na página HTML.
+
+| Número de Índice | Elemento |
+|---|---|
+| 0 | `<li id="one" class="hot">`| 
+| 1 | `<li id="two" class="hot">`| 
+| 2 | `<li id="three" class="hot">`| 
+| 3 | `<li id="four" class="hot">`| 
  
 
