@@ -159,7 +159,7 @@ Uma dessas técnicas é conhecida pela documentação como **Manipulação DOM**
 Usando a propriedade `innerHTML`, você pode acessar e alterar o conteúdo de um elemento, incluindo quaisquer elementos filho.
 Ao obter HTML de um elemento, a propriedade `innerHTML` obterá o conteúdo de um elemento e irá retorná-lo como uma longa string, incluindo qualquer marcação que o elemento contém. Quando usada para definir um novo conteúdo para um elemento, essa propriedade aceitará uma string que pode conter marcação HTML e processará essa string, adicionando quaisquer elementos dentro dela à árvore DOM.
 
-- **Adicionando conteúdo**
+- **Exemplo: Adicionando conteúdo**
 
 Para adicionar o novo conteúdo:
 1. Armazene o novo conteúdo (incluindo a marcação) como uma string em uma variável.
