@@ -28,8 +28,8 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 
 Considere os exemplos de código e de árvore DOM demonstrados a seguir, para maior entendimento.
 
-<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/code.png" width="300px">
-<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/arvore-dom.png" width="300px">
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/code.png" width="500px">
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/arvore-dom.png" width="500px">
 
 À medida que um navegador carrega uma página web, ele cria um modelo dessa página. O modelo é chamado árvore DOM, e é armazenado na memória dos navegadores. Consiste em quatro tipos principais de nós:
 
