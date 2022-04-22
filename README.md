@@ -7,9 +7,6 @@
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#nodelists-consultas-dom-que-retornam-mais-de-um-elemento">NodeLists: _Consultas DOM que retornam mais de um elemento_</a>
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#percorrendo-o-dom">Percorrendo o DOM</a>
 
-
-
-
 ## Introdução
 
 O Document Object Model (DOM) especifica como os navegadores devem criar um modelo de página HTML e como o JavaScript pode acessar e atualizar o conteúdo de uma página web enquanto ela está na janela do navegador.
@@ -26,6 +23,28 @@ Cada objeto representa uma parte diferente da página carregada na janela do nav
 ### Acesso e alteração da página HTML
 
 O DOM também define métodos e propriedades para acessar e atualizar cada objeto nesse modelo o que, por sua vez, atualiza aquilo que o usuário vê no navegador.
+
+### A árvore DOM é o modelo de uma página web
+
+À medida que um navegador carrega uma página web, ele cria um modelo dessa página. O modelo é chamado árvore DOM, e é armazenado na memória dos navegadores. Consiste em quatro tipos principais de nós.
+
+EXEMPLO: CORPO DA PÁGINA HTML
+
+`<htm]>
+<body>
+  <div id="page">
+   <h1 id="header">List</hi>
+   <h2>Buy groceries</h2>
+   <ul>
+     <li id= "one" class="hot"><em>fresh</em> figs</li>
+     <li id="two" class="hot">pine nuts</li>
+     <li id="three" class="hot">honey</li>
+     <li id="four">balsamic vinegar</li>
+   </ul>
+  </div>
+  <script src="js/list.js"></script>
+</body>
+</html>`
 
 
  Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
