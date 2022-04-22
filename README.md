@@ -143,10 +143,10 @@ Se você começou com o elemento `<ul>`, o primeiro filho seria o nó representa
 
 A manipulação DOM fornece técnicas para adicionar novo conteúdo a uma página HTML. Uma delas envolve três passos:
 
-1. CRIE O ELEMENTO  | 2. INSIRA CONTEÚDO   | 3. ADICIONE-O AO DOM
- ------------ | ----------------- | --------------- 
-createElement() | createTextNode() | appendChild()
-createElement() | createTextNode() | appendChild()
+| 1. CRIE O ELEMENTO  | 2. INSIRA CONTEÚDO   | 3. ADICIONE-O AO DOM |
+| --- | ---| --- |
+| createElement() | createTextNode() | appendChild() | 
+| createElement() | createTextNode() | appendChild() | 
 
 
 <hr>
