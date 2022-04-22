@@ -82,7 +82,7 @@ Embora essa consulta retorne um único elemento, o método ainda retorna uma Nod
 |---|---|
 | 0 | `<h1>`| 
 
-#### getElementsbyTagName('li'):
+#### getElementsByTagName('li'):
 Esse método retorna quatro elementos, um para cada um dos elementos `<li>` na página. Eles aparecem na mesma ordem em que são exibidos na página HTML.
 
 | Número de Índice | Elemento |
@@ -90,6 +90,23 @@ Esse método retorna quatro elementos, um para cada um dos elementos `<li>` na p
 | 0 | `<li id="one" class="hot">`| 
 | 1 | `<li id="two" class="hot">`| 
 | 2 | `<li id="three" class="hot">`| 
-| 3 | `<li id="four" class="hot">`| 
+| 3 | `<li id="four">`| 
  
+#### getElementsByClassName('hot'):
+Essa NodeList contém apenas três dos elementos `<li>` porque estamos procurando elementos pelo valor de seu atributo _class_, e não pelo nome de tag.
 
+| Número de Índice | Elemento |
+|---|---|
+| 0 | `<li id="one" class="hot">`| 
+| 1 | `<li id="two" class="hot">`| 
+| 2 | `<li id="three" class="hot">`| 
+
+#### querySelectorAll('li[id]'):
+Esse método retorna quatro elementos, um para cada um dos elementos `<li>` da página que tem um atributo _id_ (independentemente dos valores dos atributos id).
+
+| Número de Índice | Elemento |
+|---|---|
+| 0 | `<li id="one" class="hot">`| 
+| 1 | `<li id="two" class="hot">`| 
+| 2 | `<li id="three" class="hot">`| 
+| 3 | `<li id="four">`| 
