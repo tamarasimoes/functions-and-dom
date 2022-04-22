@@ -162,14 +162,13 @@ Ao obter HTML de um elemento, a propriedade `innerHTML` obterá o conteúdo de u
 - **Adicionando conteúdo**
 
 Para adicionar o novo conteúdo:
-Armazene o novo conteúdo (incluindo a marcação) como uma string em uma variável.
-Selecione o elemento cujo conteúdo você quer substituir.
-Configure a propriedade `innerHTML` do elemento como a nova string.
+1. Armazene o novo conteúdo (incluindo a marcação) como uma string em uma variável.
+2. Selecione o elemento cujo conteúdo você quer substituir.
+3. Configure a propriedade `innerHTML` do elemento como a nova string.
 
 <hr>
 
-Agora que você
-Tes
+Agora que você possui o aporte teórico sobre esse assunto, que tal realizar alguns exercícios? **Clone esse repositório, crie a sua branch e pratique!**
 
 <hr>
 Fonte:
