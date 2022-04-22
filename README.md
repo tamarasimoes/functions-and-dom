@@ -6,7 +6,7 @@
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#métodos-que-selecionam-elementos-individuais">Métodos que selecionam elementos individuais</a>
  - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#nodelists-consultas-dom-que-retornam-mais-de-um-elemento">NodeLists: _Consultas DOM que retornam mais de um elemento_</a>
 - <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#percorrendo-o-dom">Percorrendo o DOM</a>
-- <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#adicionando-elementos-com-manipulação-dom">Adicionando elementos com manipulação DOM</a>
+- <a href="https://github.com/tamaratryber/functions-and-dom/blob/main/README.md#adicionando-elementos">Adicionando elementos</a>
 
 ## Introdução
 
@@ -139,15 +139,24 @@ Se você começou com o primeiro elemento `<li>`, ele não teria um irmão anter
 Essas propriedades encontram o primeiro ou o último filho do elemento atual.
 Se você começou com o elemento `<ul>`, o primeiro filho seria o nó representando o primeiro elemento `<li>` e **(3)** o último filho seria o último `<li>`.
 
-## Adicionando elementos com manipulação DOM
+## Adicionando elementos
 
 A manipulação DOM fornece técnicas para adicionar novo conteúdo a uma página HTML. Uma delas envolve três passos:
+
+### Manipulação DOM
 
 | 1. CRIE O ELEMENTO  | 2. INSIRA CONTEÚDO   | 3. ADICIONE-O AO DOM |
 | --- | ---| --- |
 | <center>**createElement()**</center> | <center>**createTextNode()**</center> | <center>**appendChild()**</center> | 
 | Você começa criando um novo nó de elemento usando o método `createElement()`. Esse nó de elemento é armazenado em uma variável.<br><br>Quando o nó de elemento é criado, ele ainda não faz parte da árvore DOM. Ele só é adicionado à árvore DOM depois do passo 3. | `createTextNode()` cria um novo nó de texto. Mais uma vez, o nó é armazenado em uma variável. Ele pode ser adicionado ao nó de elemento usando o método `appendChild()`.<br><br>Isso fornece o conteúdo para o elemento, embora você possa pular esse passo se quiser anexar um elemento vazio à árvore DOM. | Agora que você tem o elemento (opcionalmente com algum conteúdo em um nó de texto), você pode adicioná-lo à árvore DOM usando o método `appendChild()`.<br><br>O método `appendChild()` permite especificar a qual elemento você quer adicionar esse nó como filho. | 
 
+### _elemento_.innerHTML
+
+Teste
+
+### document.write
+
+Teste
 
 <hr>
 Fonte:
