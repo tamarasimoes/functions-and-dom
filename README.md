@@ -141,9 +141,11 @@ Se você começou com o elemento `<ul>`, o primeiro filho seria o nó representa
 
 ## Adicionando elementos
 
-A manipulação DOM fornece técnicas para adicionar novo conteúdo a uma página HTML. Uma delas envolve três passos:
+O DOM fornece técnicas diferentes para adicionar novo conteúdo a uma página HTML. Abaixo, estão as mais usadas:
 
 ### Manipulação DOM
+
+Uma dessas técnicas é conhecida pela documentação como **Manipulação DOM** e envolve três passos:
 
 | 1. CRIE O ELEMENTO  | 2. INSIRA CONTEÚDO   | 3. ADICIONE-O AO DOM |
 | --- | ---| --- |
@@ -152,11 +154,22 @@ A manipulação DOM fornece técnicas para adicionar novo conteúdo a uma págin
 
 ### _elemento_.innerHTML
 
-Teste
+- **Abordagem**
 
-### document.write()
+Usando a propriedade `innerHTML`, você pode acessar e alterar o conteúdo de um elemento, incluindo quaisquer elementos filho.
+Ao obter HTML de um elemento, a propriedade `innerHTML` obterá o conteúdo de um elemento e irá retorná-lo como uma longa string, incluindo qualquer marcação que o elemento contém. Quando usada para definir um novo conteúdo para um elemento, essa propriedade aceitará uma string que pode conter marcação HTML e processará essa string, adicionando quaisquer elementos dentro dela à árvore DOM.
 
-Teste
+- **Adicionando conteúdo**
+
+Para adicionar o novo conteúdo:
+Armazene o novo conteúdo (incluindo a marcação) como uma string em uma variável.
+Selecione o elemento cujo conteúdo você quer substituir.
+Configure a propriedade `innerHTML` do elemento como a nova string.
+
+<hr>
+
+Agora que você
+Tes
 
 <hr>
 Fonte:
