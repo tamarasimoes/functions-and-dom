@@ -72,3 +72,10 @@ Como qualquer outro objeto, uma NodeList tem propriedades e métodos, nomeadamen
 - O método **item()** retorna um nó específico do NodeList quando você informa o número de índice do item que você quer (entre parênteses). Mas é mais comum usar a sintaxe de array (com colchetes) para recuperar o item de uma NodeList.
 
 <img src="https://github.com/tamaratryber/functions-and-dom/blob/main/nodelists.png">
+
+--
+
+_Aqui você pode ver quatro diferentes consultas DOM que retornam uma NodeList. Para cada consulta, você pode ver os elementos e seus números de índice no NodeList que é retornado.
+
+- getElementsbyTagName('h1')
+
