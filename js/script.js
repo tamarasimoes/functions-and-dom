@@ -37,4 +37,10 @@ const montaMensagem = () => {
 
 botao.addEventListener('click', montaMensagem);
 
+//Pegando o target de um elemento
+function pegaOTarget(event) {
+  return console.log(event.target);
+}
+const divTarget = document.getElementById('div-pai-de-todas')
+divTarget.addEventListener('click', pegaOTarget)
 
