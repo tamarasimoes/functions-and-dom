@@ -26,7 +26,7 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 
 ### A árvore DOM é o modelo de uma página web
 
-Considere os exemplos de código e de árvore DOM demonstrados a seguir, para maior entendimento.
+Considere os exemplos de código e de árvore DOM demonstrados a seguir, para maior entendimento. Observe que a árvore DOM está representando, especificamente, o código à esquerda.
 
 <img src="https://github.com/tamaratryber/functions-and-dom/blob/main/code.png" width="500px" height="333px"> <img src="https://github.com/tamaratryber/functions-and-dom/blob/main/arvore-dom.png" width="500px">
 
