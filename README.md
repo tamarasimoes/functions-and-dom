@@ -154,7 +154,7 @@ A manipulação DOM fornece técnicas para adicionar novo conteúdo a uma págin
 
 Teste
 
-### document.write
+### document.write()
 
 Teste
 
