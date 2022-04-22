@@ -29,7 +29,7 @@ O DOM também define métodos e propriedades para acessar e atualizar cada objet
 À medida que um navegador carrega uma página web, ele cria um modelo dessa página. O modelo é chamado árvore DOM, e é armazenado na memória dos navegadores. Consiste em quatro tipos principais de nós.
 
 EXEMPLO: CORPO DA PÁGINA HTML
-<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/code.png">
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/code.png" width="700px">
 
 
  Nó Document  | Nós de Elemento   | Nós de atributo | Nós de texto
@@ -57,7 +57,7 @@ Acima, você pode ver o código HTML para uma lista de compras, e logo após est
 
 Veja o exemplo:
 
-<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/dom.png">
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/dom.png" width="700px">
 
 ## NodeLists: _Consultas DOM que retornam mais de um elemento_
 
@@ -77,7 +77,7 @@ Como qualquer outro objeto, uma NodeList tem propriedades e métodos, nomeadamen
 - A propriedade **lenght** informa quandos itens estão no NodeList.
 - O método **item()** retorna um nó específico do NodeList quando você informa o número de índice do item que você quer (entre parênteses). Mas é mais comum usar a sintaxe de array (com colchetes) para recuperar o item de uma NodeList.
 
-<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/nodelists.png">
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/nodelists.png" width="700px">
 
 _Aqui você pode ver quatro diferentes consultas DOM que retornam uma NodeList. Para cada consulta, você pode ver os elementos e seus números de índice no NodeList que é retornado._
 
@@ -121,7 +121,7 @@ Esse método retorna quatro elementos, um para cada um dos elementos `<li>` da p
 
 Quando você tem um nó de elemento, você pode selecionar outro elemento em relação a ele usando estas cinco propriedades. Isso é conhecido como _percorrer_ ou navegar pelo DOM.
 
-<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/percorrendo-dom.png">
+<img src="https://github.com/tamaratryber/functions-and-dom/blob/main/percorrendo-dom.png" width="700px">
 
 - **parentNode**
 
